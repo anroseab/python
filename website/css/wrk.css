@@ -1,0 +1,23 @@
+.paragraph1{
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 1px;
+}
+.book{
+    margin-top: -50%;
+}
+.Lorem {
+    white-space: nowrap;
+    position: absolute;
+    top: 200px;
+    /* left: -20px; */
+    transform: rotate(90deg);
+  }
+  .man{
+    margin-top: -80%;
+
+  }
+  /* .marg{
+    margin-top: -500%;
+
+  } */
