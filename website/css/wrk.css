@@ -3,21 +3,61 @@
     font-size: 64px;
     letter-spacing: 1px;
 }
-.book{
-    margin-top: -50%;
+.navbar1{
+  color: black;
 }
 .Lorem {
     white-space: nowrap;
     position: absolute;
-    top: 200px;
+    top: 400px;
     /* left: -20px; */
     transform: rotate(90deg);
+   /* border: 1px solid black ; */
   }
-  .man{
-    margin-top: -80%;
-
+  .top
+  {
+    /* border: 1px solid black ; */
   }
-  /* .marg{
-    margin-top: -500%;
-
-  } */
+  .purchase{
+    background-color: black;
+    color: white;
+  }
+  .you{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+  }
+  .facebook
+  {
+    padding-left:11px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 11px;
+  }
+ .arrow{
+  background-color: black;
+  color: white;
+ }
+ /* .space{
+   margin-top:10% ;
+ } */
+ .back{
+  background-color: rgb(78, 76, 76);
+ }
+ .Experince{
+  font-weight: 600;
+  font-size: 24px;
+ }
+ .Ideological{
+  font-weight: 700;
+  font-size: 54px;
+ }
+ .dolor{
+  color: rgb(155, 153, 153);
+ }
+ .sub{
+  background-color: black;
+  color: white;
+ 
+  border-radius: 10%;
+ }
