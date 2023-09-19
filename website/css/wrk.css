@@ -12,11 +12,15 @@
     top: 400px;
     /* left: -20px; */
     transform: rotate(90deg);
-   /* border: 1px solid black ; */
+   /* border-top: 1px solid black ; */
+padding-left: 130px;
   }
   .top
   {
-    /* border: 1px solid black ; */
+    border-left: 1px solid black ;
+    height: 200px;
+   
+    
   }
   .purchase{
     background-color: black;
@@ -37,7 +41,7 @@
     text-align: center;
     font-size: 24px;
     font-weight: 400;
-     /* border-bottom: 1px solid black; */
+     border-bottom: 1px solid black;
   } 
   .debitis{
     color: rgb(143, 143, 143);
@@ -85,6 +89,12 @@
  
   border-radius: 10%;
  }
+ .su{
+  background-color: black;
+  color: white;
+ 
+  border-radius: 28%;
+ }
  .Touch{
 font-weight: 400;
 font-size: 24px;
@@ -118,6 +128,64 @@ margin-top:-100px; */
   font-weight: 700;
 }
 .one{
-  background-color: black;
-  color: white;
+  background-color: rgb(236, 236, 236);
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  border:1px solid white
+}
+.one:hover{
+color:white;
+background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.butto {
+  position: relative;
+  background-color: #000000;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  /* padding: 20px;
+  width: 200px; */
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.butto:after {
+  content: "";
+  background: #343534;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.butto:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
 }
