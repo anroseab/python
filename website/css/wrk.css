@@ -7,21 +7,23 @@
   color: black;
 }
 .Lorem {
-    white-space: nowrap;
+    /* white-space: nowrap;
     position: absolute;
     top: 400px;
-    /* left: -20px; */
+    /* left: -20px; 
     transform: rotate(90deg);
-   /* border-top: 1px solid black ; */
-padding-left: 130px;
+   /* border-top: 1px solid black ; 
+padding-left: 130px; */
+writing-mode: vertical-lr;
+text-orientation: mixed;
   }
-  /* .top
+  .top
   {
     border-left: 1px solid black ;
     height: 200px;
    
     
-  } */
+  }
   .purchase{
     background-color: black;
     color: white;
@@ -41,7 +43,7 @@ padding-left: 130px;
     text-align: center;
     font-size: 24px;
     font-weight: 400;
-     border-bottom: 1px solid black;
+     /* border-bottom: 1px solid black; */
   } 
   .debitis{
     color: rgb(143, 143, 143);
@@ -138,9 +140,22 @@ color:white;
 background-color: black;
 }
 
+.screen{
+  background-image: url("../img/Screenshot_2023-09-12-14-59-36-68_40deb401b9ffe8e1df2f1cc5ba480b12-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: center;
+height: 50vh;
+padding-top: 90%;
+/* background: linear-gradient(red, yellow); */
+/* background-image: linear-gradient(red, yellow); */
+}
 
+.back{
+  /* background-color: #343534; */
+  /*  */
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(156, 156, 156));
 
-
+}
 
 
 
