@@ -1,0 +1,206 @@
+.paragraph1{
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 1px;
+}
+.navbar1{
+  color: black;
+}
+.Lorem {
+    /* white-space: nowrap;
+    position: absolute;
+    top: 400px;
+    /* left: -20px; 
+    transform: rotate(90deg);
+   /* border-top: 1px solid black ; 
+padding-left: 130px; */
+writing-mode: vertical-lr;
+text-orientation: mixed;
+  }
+  .top
+  {
+    border-left: 1px solid black ;
+    height: 200px;
+   
+    
+  }
+  .purchase{
+    background-color: black;
+    color: white;
+  }
+  .Timeline{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+  }
+  .quia{
+    color: rgb(116, 115, 115);
+  }
+  /* section{
+    background-color: rgb(54, 51, 51);
+  } */
+  .Brief{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+     /* border-bottom: 1px solid black; */
+  } 
+  .debitis{
+    color: rgb(143, 143, 143);
+  }
+  .you{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+  }
+  .you:hover{
+    background-color: white;
+    color: black;
+  }
+  .facebook
+  {
+    padding-left:20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+  }
+ .arrow{
+  background-color: black;
+  color: white;
+ }
+ /* .space{
+   margin-top:10% ;
+ } */
+ .back{
+  background-color: rgb(78, 76, 76);
+ }
+ .Experince{
+  font-weight: 600;
+  font-size: 24px;
+ }
+ .Ideological{
+  font-weight: 700;
+  font-size: 54px;
+ }
+ .dolor{
+  color: rgb(155, 153, 153);
+ }
+ .sub{
+  background-color: black;
+  color: white;
+ 
+  border-radius: 10%;
+ }
+ .su{
+  background-color: black;
+  color: white;
+ 
+  border-radius: 28%;
+ }
+ .Touch{
+font-weight: 400;
+font-size: 24px;
+ }
+ /* .img1{
+  background-color: rgb(46, 43, 43);
+  opacity: 0.9;
+z-index: 10;
+margin-top:-100px; */
+  
+  /* width: 35px;
+  height: 24px; */
+  /* background: url(assets/img/arrow-animation.svg) no-repeat; */
+  /* background-size: 48px 24px;
+  background-position-x: -12px;
+  position: absolute; */
+  /* left: -15px;
+  top: 180px;
+  content: '';
+  z-index: 10; */
+  /* animation: rightarrow-animation 1s; */
+ /* } */
+ /* .img1{
+  box-shadow: 0 200px 0 -100px green inset;
+ } */
+.sit{
+  background-color: white;
+}
+.amet{
+  font-size: 19px;
+  font-weight: 700;
+}
+.one{
+  background-color: rgb(236, 236, 236);
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  border:1px solid white
+}
+.one:hover{
+color:white;
+background-color: black;
+}
+
+.screen{
+  background-image: url("../img/Screenshot_2023-09-12-14-59-36-68_40deb401b9ffe8e1df2f1cc5ba480b12-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: center;
+height: 50vh;
+padding-top: 90%;
+/* background: linear-gradient(red, yellow); */
+/* background-image: linear-gradient(red, yellow); */
+}
+
+.back{
+  /* background-color: #343534; */
+  /*  */
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(156, 156, 156));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.butto {
+  position: relative;
+  background-color: #000000;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  /* padding: 20px;
+  width: 200px; */
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.butto:after {
+  content: "";
+  background: #343534;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.butto:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
