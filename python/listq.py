@@ -33,8 +33,8 @@
 # print("dec",no[::-1])
 
 # 6
-my_list=[1,1.5,'apple',[1,2,3],True]
-print(my_list[-1])
+# my_list=[1,1.5,'apple',[1,2,3],True]
+# print(my_list[-1])
 
 # 8
 # fruits=['apple','banana','cherry']
@@ -50,4 +50,26 @@ print(my_list[-1])
 # b.append(10)
 # print(b)
 # print(a)
+
+# 12
+# no=[5,4,8,1,3]
+# a=map()
+
+# 16
+# no=[5,4,8,1,3]
+# print("minimum",min(no))
+# print("maximum",max(no))
+
+# 18
+# fruits=['apple','banana','cherry']
+# print(len(fruits))
+
+# 19
+# no=[5,4,8,1,3]
+# print(5+4+8+1+3)
+
+# 20
+# fruits=['apple','banana','cherry']
+# fruits[1]='grap'
+# print(fruits)
 
