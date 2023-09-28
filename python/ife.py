@@ -33,7 +33,14 @@
 # else:
 #         print('odd')
 
-
+# 6
+# a=int(input('enter first number'))
+# b=int(input('enter second number'))
+# c=a/b
+# if c:
+#     print("divisible")
+# else:
+#     print("not a divisible")
 
 
 

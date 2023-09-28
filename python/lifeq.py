@@ -10,18 +10,22 @@
 # else:
 #     print('f')
 
-# # 2
+# 2
 # a=int(input('enter  1st number'))
 # b=int(input('enter  2nd number'))
-# c=int(input('enter a operator'))
-# if c=='+':
-#   print(a+b)
-# elif c=='-':
-#    print("a-b")
-# elif c=='*':
-#    print(a*b)
-# elif c=='/':
-#    print(a/b)
+# c=(input('enter a operator'))
+# if c == "+":
+#   m=a+b
+#   print(m)
+# elif c == "-":
+#    n=a-b
+#    print(n)
+# elif c == "*":
+#    j=a*b
+#    print(j)
+# elif c == "/":
+#    t=a/b
+#    print(t)
 # else:
 #    print("invalid entry")
 
@@ -72,6 +76,57 @@
 #     print("Obesity")
 
 # 8
+# a=input('enter a character')
+# if a.isdigit:
+#     print('a digit')
+# elif a.isupper and a.islower:
+#     print('a alphabet')
+
+# 9
+# a=str(input('enter a color'))
+# b='yellow'
+# c='green'
+# d='red'
+# if a in b:
+#     print("proceed with caution")
+# elif a in c:
+#     print("go")
+# elif a in d:
+#     print('stop')
+# else:
+#     print("invalid color")
+
+# 6
+# a=int(input('enter a 1st number'))
+# b=int(input('enter a 2st number'))
+# c=int(input('enter a 3st number'))
+# if a>b and a>c:
+#     print(a)
+# elif b>a and b>c:
+#     print(b)
+# elif c>a and c>b:
+#     print(c)
+# else:
+#     print("they are eqaul")
+
+
+
+
+# a=int(input('enter a time'))
+# if a>=5 and a<=11.59:
+#     print('good morning')
+# elif a>=12  and a<=16.59:
+#     print('good afternoon')
+# elif a>=17  and a<=20.59:
+#     print('good evening')
+# elif a>=21 and a<=24:
+#     print("Good night")
+# elif a<=4.59:
+#     print("Good night")
+# else:
+#     print("invalid")
+
+
 
 
 
