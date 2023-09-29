@@ -37,7 +37,7 @@
 # a=int(input('enter first number'))
 # b=int(input('enter second number'))
 # c=a/b
-# if c:
+# if a/b==0:
 #     print("divisible")
 # else:
 #     print("not a divisible")

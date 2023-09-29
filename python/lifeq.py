@@ -76,11 +76,17 @@
 #     print("Obesity")
 
 # 8
-# a=input('enter a character')
-# if a.isdigit:
-#     print('a digit')
-# elif a.isupper and a.islower:
-#     print('a alphabet')
+a=(input('enter a character'))
+if (a.isdigit()):
+    print('digit')
+elif a.upper or a.lower:
+    print('alphabet')
+else:
+    print("special chara")
+# print(a.isdigit())
+
+# print(a.isalnum())
+
 
 # 9
 # a=str(input('enter a color'))
@@ -111,7 +117,7 @@
 
 
 
-
+# 10
 # a=int(input('enter a time'))
 # if a>=5 and a<=11.59:
 #     print('good morning')
@@ -126,11 +132,43 @@
 # else:
 #     print("invalid")
 
+# discount 
+# a=int(input('enter your puchase amount'))
+# if a>=100:
+#     am=((10/100)*a)
+#     print("dicount",am)
+#     print("amount=",a-am)
+# elif a>=50:
+#     amount=((5/100)*a)
+#     print("dicount",amount)
+#     print("amount=",a-amount)
+# else:
+#     print(a)
 
 
+# # leap 
+# a=int(input('enter an year'))
+# if a in range(0,3000,4) :
+#     print('leap year')
+# else:
+#     print('not a leap year')
 
 
+# number=44
+# a=int(input("guess a num"))
+# if number<a:
+#     print('too high')
+# elif number>a:
+#     print("too low")
+# elif number==a:
+#     print('correct')
 
-
-
-
+# tem
+# tem=float(input("enter the temperature"))
+# unit=str(input("enter the unit (fahrenheit or celsius)"))
+# if unit=='fahrenheit':
+#     f=(tem*1.8)+32
+#     print("the fahrenheit temperature is ",f)
+# elif unit=='celsius':
+#     f=(tem-32)/1.8
+#     print("the celsius temperature is ",f)
