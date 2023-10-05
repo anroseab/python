@@ -7,20 +7,34 @@
    
 
 # count the no of duplicate elements in a list
-a=[1,2,3,3,2,1,3,4,]
+
 # c=set(a)
 # print(c)
-for i in a:
+# for i in a:
     
-    b=a.count(i)
-    if b>1:   
-        print("element =",i,'duplicate=',a.count(i))
+#     b=a.count(i)
+#     if b>1:   
+#         print("element =",i,'duplicate=',a.count(i))
         
 # x=set(a)
 # print(x)
 
+a=[1,1,2,3,3,1]
+c=0
+d=[]
+for i in set(a):
+   
+    b=a.count(i)
     
-    
+    if b>1:
+        
+        print(i,b)
+        c+=b
+        
+print("total number of duplication",c)
+
+
+
 
         
 
