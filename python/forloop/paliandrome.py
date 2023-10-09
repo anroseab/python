@@ -56,7 +56,69 @@
 # print("lenght",len(num))
 # print(num)
 
-# 70
-# n=3
-# for i in n:
-#     if i==1:
+
+#  414
+# a=list(input("enter a list"))
+# a.remove(max(a)) 
+# print(a)    
+
+
+# 
+# a=list(input("enter a list"))
+# b=[]
+# for i in a:
+#     if i in range(i,a+1,2):
+#         print(b.append())
+       
+
+
+
+# 
+# s=['h','e',"l",'o']
+# s.reverse()
+# print(s)
+
+# a=[1,2,3,4,5]
+# b=[]
+# target=6
+# for i in  a:
+#     for j in range(i+1,len(a)):
+#         if a[i]+a[j]==target:
+            
+#             print("True")
+#         else:
+#             print("false")
+
+
+# 434
+# a='hello, hi we wewfds'
+# b=a.split()
+# print(len(b))
+
+# 392
+# a='abc'
+# target='qwabc'
+# for i in a:
+#         x=0
+# if i in target:
+#         print("true")
+# else:
+#         print("false")
+
+
+# 414
+# a=[1,2]
+# if len(a)>2:
+#   b=max(a)
+#   a.remove(b)
+#   c=max(a)
+#   a.remove(c)
+#   print(max(a))
+# else:
+#   print(max(a))
+
+
+
+
+
+#
