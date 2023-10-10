@@ -119,6 +119,82 @@
 
 
 
+# 231
+# n=int(input("enter a number"))
+# while (n % 2 == 0): 
+#      n = n/2
+# if n==1:
+#         print("true")
+# else:
+#         print("false")
 
 
-#
+# 342
+# n=int(input("enter a number"))
+# while (n % 2 == 0): 
+#      n = n/4
+# if n==1:
+#         print("true")
+# else:
+#         print("false")
+
+
+# # li='ABABAABBBBAB'
+# a=li.count('A')
+# b=li.count('B')
+# if a==b:
+#     print("balanced")
+# else:
+#     print("unbalanced")
+
+
+
+# 191
+# a='000000000010101001010111111'
+# print(a.count('1'))
+
+# 326
+# n=int(input("enter a number"))
+# while (n % 3== 0): 
+#      n = n/3
+# if n==1:
+#         print("true")
+# else:
+#         print("false")
+
+# s=input("enter a input")
+# s='{}[]()'
+# s.split()
+# if s=='[]':
+#     print("true")
+# elif s=='{}':
+#     print("true")
+# elif s=='()':
+#     print("true")
+# else:
+#     print("false")
+
+
+# 2235
+# n=int(input("enter a number"))
+# v=int(input("enter a number"))
+# c=n+v
+# print(c)
+
+# 2733
+# a=[1,2,3,4,8,5]
+# if len(a)>2:
+#   b=max(a)
+#   a.remove(b)
+#   c=min(a)
+#   a.pop(c)
+#   print(max(a))
+# else:
+#   print("-1")
+
+
+# a=[1,1,1,1,2,3,4,44,5,3]
+# b=len(a)
+# for i in range(b):
+#      if a.count(i)>b/2:
+#          print(i) 
