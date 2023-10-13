@@ -1,4 +1,5 @@
 #1
+# 1
 #  a=[2,3,4,5,7,1]
 # b=[]
 # target=6
@@ -9,7 +10,7 @@
 #             b.append(a[j])
 #             print(b)
 
-
+# 2
 # # 2733
 # a=[1,2,3,4,8,5]
 # if len(a)>2:
@@ -89,21 +90,20 @@
 
 
 
-#  414
-# a=list(input("enter a list"))
-# a.remove(max(a)) 
-# print(a)    
-
 
 # 344
 # s=['h','e',"l",'o']
 # s.reverse()
 # print(s)
 
+
+
 # 434
 # a='hello, hi we wewfds'
 # b=a.split()
 # print(len(b))
+
+
 
 
 
@@ -130,6 +130,7 @@
 #   print(max(a))
 
 
+
 # 231
 # n=int(input("enter a number"))
 # while (n % 2 == 0): 
@@ -138,6 +139,7 @@
 #         print("true")
 # else:
 #         print("false")
+
 
 
 
@@ -212,3 +214,20 @@
 # c=list(b)
 # print(c)
 
+
+
+# 136
+# a=[1,2,2,3,3]
+# for i in a:
+#     if a.count(i)==1:
+#         print(i)
+
+
+# 283
+# a=[1,0,1,2,0,4]
+# # a=[0]
+# for i in a:
+#     if i==0:
+#       a.remove(i)
+#       a.append(i)
+# print(a)

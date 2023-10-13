@@ -70,6 +70,10 @@
 
 
 
+#  414
+# a=list(input("enter a list"))
+# a.remove(max(a)) 
+# print(a)    
 
 
 
@@ -95,3 +99,27 @@
 
 
 # 
+
+# a='a man a plan a canal panama'
+# for i in a:
+#     if (i==" "):
+#         continue
+#         if a[::-1]:
+#             print(a)
+
+
+# a=[1,2,2,3,3,3,2,4]
+# b=[]
+# for i in a:
+#     if a.count(i)==1:
+#         c=b.append(i)
+#         print( c)
+
+
+
+# a=['flower',"flow","flight"]
+# for i in a:
+#     if 
+s="Hello"
+# s.lower()
+print(s.lower())
