@@ -120,6 +120,6 @@
 # a=['flower',"flow","flight"]
 # for i in a:
 #     if 
-s="Hello"
-# s.lower()
-print(s.lower())
+# s="Hello"
+# # s.lower()
+# print(s.lower())
