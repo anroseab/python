@@ -19,14 +19,16 @@ while True:
         account_no=account_no+1
         li.append(bank.copy())
     elif choice==2:
-          for ik in li:
+          for i in li:
              print("-"*20)
-             for j,k in bank.items():
+             for j,k in i.items():
               print(j,":",k)
-          for ik in range(1):
+          for i in range(1):
              print("-"*20)
+        # print(li)
     elif choice==3:
         account=int(input('enter your account number'))
+
         for i in li:
           acc.append(i['Acc.no'])
         if account in acc:
