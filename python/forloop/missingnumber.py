@@ -6,32 +6,6 @@
 #     if i not in a:
 #         print(i)
         
-#17
-# # letter={2:["a","b","c"]}
-# # letter={2:["a","b","c"],3:'def',4:"ghi",5:"jkl",6:"mno",7:"pqrs",8:"tuv",9:"wxyz"}
-# # a=['abc','def']
-# # c=len(a)
-# b=int(input("enter your choice"))
-# # for i in range(c,):
-# #     for j in a: 
-# #       print(i[j])
-# # for i in letter:
-# #     print(i[2])
-
-
-
-
-# # 17
-# a=['abc','def']
-# # c=a.split()
-# b=len(a)
-# # for i in a:
-# # #    b.append(i[0])
-# # print(b)
-
-# for i in range(0,b+1):
-#     for j in a:
-#         print(j)
             
 #  17       
 # letter={0:'',1:"",2:'abc',3:'def',4:"ghi",5:"jkl",6:"mno",7:"pqrs",8:"tuv",9:"wxyz"}
@@ -107,4 +81,12 @@
 #             b.append(i+1)
 #             b.append(j+1)
 #             print(b)
+
+
+
+# rom={1:"I",4:"IV",5:"V",9:"IX",10:"X",40:"XL",50:"L",90:"XC",100:"C",400:"CD",500:"D",900:"CM",1000:"M"}
+# x=[]
+# number=int(input("enter a  number"))
+
+
 
