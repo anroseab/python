@@ -1,0 +1,31 @@
+.Unlocking{
+   font-weight: 300; 
+   font-size: 60px;
+}
+.Learn{
+    background-color: rgb(22, 89, 212);
+    color: white;
+    /* border-radius: 30%; */
+    border-radius:20px;
+    /* border-color:  rgb(22, 89, 212); */
+    border:1px solid rgb(22, 89, 212);
+}
+.li{
+    background-image: linear-gradient( white,rgb(209, 212, 214));
+}
+.Welcome{
+    color: rgb(53, 53, 228);
+}
+.bo
+{
+    /* border:1px solid rgb(22, 89, 212); */
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    
+}
+.boa{
+    border: 1px solid black;
+}
+.ipsum{
+    text-align: center;
+}
