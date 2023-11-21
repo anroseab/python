@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Slider</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .slider-container {
+      width: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card-slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .card {
+      min-width: 300px;
+      box-sizing: border-box;
+      margin-right: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .prev { left: 10px; }
+    .next { right: 10px; }
+  </style>
+</head>
+<body>
+
+  <div class="slider-container">
+    <div class="card-slider" id="cardSlider">
+      <div class="card">
+        <img src="image1.jpg" alt="Card Image">
+        <div class="card-content">
+          <h3>Card 1</h3>
+          <p>This is some content for card 1.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image2.jpg" alt="Card Image">
+        <div class="card-content">
+          <h3>Card 2</h3>
+          <p>This is some content for card 2.</p>
+        </div>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+
+    <div class="prev" onclick="prevCard()">&#10094;</div>
+    <div class="next" onclick="nextCard()">&#10095;</div>
+  </div>
+
+  <script>
+    const cardSlider = document.getElementById('cardSlider');
+    let currentIndex = 0;
+
+    function showCard(index) {
+      const translateX = -index * 320 + 'px'; // 320 is the card width including margin
+      cardSlider.style.transform = 'translateX(' + translateX + ')';
+    }
+
+    function nextCard() {
+      currentIndex = (currentIndex + 1) % (cardSlider.children.length - 1);
+      showCard(currentIndex);
+    }
+
+    function prevCard() {
+      currentIndex = (currentIndex - 1 + cardSlider.children.length - 1) % (cardSlider.children.length - 1);
+      showCard(currentIndex);
+    }
+  </script>
+
+</body>
+</html>

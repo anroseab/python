@@ -29,3 +29,13 @@
 .ipsum{
     text-align: center;
 }
+.nav-t{
+    color: black;
+    text-decoration: none;
+  
+  }
+  
+  .nav-t:hover{
+    color: white;
+    background-color: rgb(73, 73, 133);
+  }
