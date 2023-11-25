@@ -1,49 +1,4 @@
-.Unlocking{
-   font-weight: 300; 
-   font-size: 60px;
-}
-.Learn{
-    background-color: rgb(22, 89, 212);
-    color: white;
-    /* border-radius: 30%; */
-    border-radius:20px;
-    /* border-color:  rgb(22, 89, 212); */
-    border:1px solid rgb(22, 89, 212);
-}
-.li{
-    background-image: linear-gradient( white,rgb(209, 212, 214));
-}
-.Welcome{
-    color: rgb(53, 53, 228);
-}
-.bo
-{
-    /* border:1px solid rgb(22, 89, 212); */
-    border-top: 1px solid black;
-    border-bottom:1px solid black ;
-    
-}
-.boa{
-    border: 1px solid black;
-}
-.ipsum{
-    text-align: center;
-}
-.nav-t{
-    color: black;
-    text-decoration: none;
-  
-  }
-  
-  .nav-t:hover{
-    color: white;
-    background-color: rgb(73, 73, 133);
-  }
-
-
-
-
-  body {
+body {
 	font-family: "Open Sans", sans-serif;
 }
 h2 {
@@ -86,13 +41,11 @@ h2::after {
 	margin: 0 auto;
 	padding: 5px;
 	border: 1px solid #ddd;
-	border-radius: 50%;
 }
 .carousel .img-box img {
 	width: 100%;
 	height: 100%;
 	display: block;
-	border-radius: 50%;
 }
 .carousel .testimonial {
 	padding: 30px 0 10px;
@@ -137,22 +90,4 @@ h2::after {
 .carousel-indicators li.active {	
 	background: #555;		
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
-}
-
-.con{
-	border:1px solid blue;
-}
-.Lear{
-	background-color: rgb(22, 89, 212);
-    color: white;
-    /* border-radius: 30%; */
-    /* border-color:  rgb(22, 89, 212); */
-    border:1px solid rgb(22, 89, 212);	
-}
-.tex{
-	text-align: center;
-}
-.Home{
-	font-weight: 400;
-	font-size: 14px;
 }
