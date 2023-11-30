@@ -1,0 +1,18 @@
+<form method="POST">
+    {%csrf_token%}
+   {%if not st_form.instance.id %}
+   {% include 'save.html' %}
+   {%endif%}
+   {%for i in st %}
+
+
+   {% if st_form}
+
+
+{%for i in st%}
+<li>{{i.name}}</li>
+<button formnovalidate name="edit" value="{{i.id}}">edit</button>
+<button formnovalidate name="delete" value="{{i.id}}">delete</button> 
+{%endfor%}
+
+</form>
