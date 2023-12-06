@@ -1,15 +1,15 @@
-$animationSpeed: 40s;
-$slideCount: 14;
 
-@keyframes scroll {
-   0% { transform: translateX(0); }
-   100% { transform: translateX(calc(-250px * #{$slideCount})); }
-}
-
-.slider {
-   //... (existing styles)
-
-   .slide-track {
-      animation: scroll $animationSpeed linear infinite;
-   }
-}
+.card-img-top{
+   padding: 50px;
+   background-color: green;
+   transition: transform .2s;
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+ }
+ 
+ .card-img-top:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+   -webkit-transform: scale(1.5); /* Safari 3-8 */
+   transform: scale(1.5); 
+ }

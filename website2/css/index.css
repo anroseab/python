@@ -156,3 +156,22 @@ h2::after {
 	font-weight: 400;
 	font-size: 14px;
 }
+
+.face{
+	/* color: #e6e6e6;
+	background-color: rgb(9, 137, 168); */
+	border-radius: 45%;
+}
+.square{
+	border-radius: 45%;
+	background-color: rgb(25, 159, 177);
+	color: #e6e6e6;
+
+}
+.linkedin{
+	border-radius: 45%;
+
+}
+footer{
+	background-color: antiquewhite;
+}
