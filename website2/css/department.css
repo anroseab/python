@@ -1,0 +1,25 @@
+.nav-t{
+    color: black;
+    text-decoration: none;
+  
+  }
+.about{
+    font-size: 64px;
+    font-weight: 400;
+}
+.colo{
+    background-image: linear-gradient( white,rgb(193, 218, 235));
+}
+.welcome{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.back{
+    background-color: aquamarine;
+}
+.demo>[class*='col-']
+{
+    padding-right: 0;
+    padding-left: 0;
+}
