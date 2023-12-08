@@ -1,14 +1,13 @@
 .wrapper{
   position: relative;
   width: 100%;
-  background: radial-gradient(#111 50%, #000 100%);
+  background: radial-gradient(#4768ad 50%, #6262ee 100%);
   overflow: hidden;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 img {
   max-width: 100%;
-
   display: block;
 }
 
@@ -73,4 +72,35 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.pack{
+  background-color: rgb(165, 161, 161);
+}
+.pack:hover{
+  color:white;
+  background-color: rgb(92, 202, 116);
+}
+/* .From{
+  margin-left: 75%;
+  color: black;
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+
+}  */
+.from{
+  color: blue;
+  background-color: white;
+  /* bottom: 0px; */
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 17%;
+}
+.Ayush{
+  color: black;
+}
+.Ayush:hover{
+  color:white;
+  background-color: rgb(92, 202, 116);
 }

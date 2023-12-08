@@ -173,5 +173,36 @@ h2::after {
 
 }
 footer{
-	background-color: antiquewhite;
+	background-color: rgb(206, 203, 203);
 }
+.Call{
+	font-size: 14px;
+}
+.Book{
+	border-radius:100px;
+	color: #7AA641;
+	background-color: #000;
+	border: #000;
+}
+.box{
+	background-color: #7AA641;
+}
+.Book:hover{
+	background-color: rgb(72, 72, 182);
+	color:white;
+}
+
+.image{
+    background-color: rgb(206, 203, 203);
+    border-radius: 50%;
+  }
+  .bor{
+    border:1px solid black ;
+  }
+  .mar{
+    border-top: 1px solid black;
+    /* padding-left: 10%; */
+  }
+  .dolor{
+	color: #000;
+  }

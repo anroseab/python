@@ -1,4 +1,4 @@
-.col-md-3{
+/* .col-md-3{
     display: inline-block;
     margin-left:-4px;
   }
@@ -19,4 +19,32 @@
   }
   .we{
     text-align: center;
+  } */
+
+
+  /* .carousel .carousel-item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+  } */
+  /* .carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+  } */
+
+  .image{
+    background-color: rgb(206, 203, 203);
+    border-radius: 50%;
+  }
+  .bor{
+    border:1px solid black ;
+  }
+  .mar{
+    border-top: 1px solid black;
+    /* padding-left: 10%; */
   }
