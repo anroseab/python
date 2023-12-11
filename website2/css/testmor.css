@@ -104,3 +104,36 @@ img {
   color:white;
   background-color: rgb(92, 202, 116);
 }
+.from1{
+  color: blue;
+  background-color: white;
+  /* bottom: 0px; */
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 17%;
+}
+.from2{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 17%;
+}
+.from3{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:370px;
+  margin-left: 17%;
+}
+.from4{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:370px;
+  margin-left: 17%;
+}  

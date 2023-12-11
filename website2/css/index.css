@@ -197,12 +197,40 @@ footer{
     border-radius: 50%;
   }
   .bor{
-    border:1px solid black ;
+    /* border:1px solid black ; */
+	background-color: white;
   }
   .mar{
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(202, 196, 196);
     /* padding-left: 10%; */
   }
   .dolor{
 	color: #000;
   }
+  .Testimonials{
+	text-align: center;
+  }
+section{
+	background-color:rgb(232, 236, 238);
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+.home{
+	border-bottom: 1px solid rgb(198, 206, 206);
+	border-top: 1px solid rgb(198, 206, 206);
+}
+.locat{
+	border:1px solid rgb(198, 206, 206);
+}
+.port{
+	text-align: center;
+ color:#555
+}
+.port:hover{
+	color:#7AA641
+}
+.micro{
+	border:1px solid rgb(198, 206, 206);
+}
+
+
