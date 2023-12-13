@@ -211,7 +211,7 @@ footer{
 	text-align: center;
   }
 section{
-	background-color:rgb(232, 236, 238);
+	background-color:rgb(247, 244, 244);
 	padding-top:2%;
 	padding-bottom: 2%;
 }
@@ -226,11 +226,42 @@ section{
 	text-align: center;
  color:#555
 }
-.port:hover{
-	color:#7AA641
-}
+
 .micro{
 	border:1px solid rgb(198, 206, 206);
 }
 
+a .im:last-child {
+	display: none;  
+  }
+  a:hover .im:last-child {
+	display: block;  
+  }
+  a:hover .im:first-child {
+	display: none;  
+}
+.Diverse{
+	text-align: center;
+}
+.box1{
+	background-color: rgb(69, 69, 161);
+}
+.box2{
+	background-color: #7AA641;
+}
+.never{
+	position: absolute;
+    /* top:1710px; */
+  z-index:-1;
+  /* padding-bottom: 20%;
+  padding-top: 5%;
+  
+  */
+}
+.neve{
+	position: absolute;
+	/* top: 200px; */
+	/* bottom: 200px; */
+	bottom: 100%;
 
+}
