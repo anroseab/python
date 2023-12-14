@@ -16,7 +16,7 @@
     font-weight: 200;
 }
 .back{
-    background-color: aquamarine;
+    background-color: rgb(208, 230, 240);
 }
 .demo>[class*='col-']
 {

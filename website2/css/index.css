@@ -164,7 +164,7 @@ h2::after {
 }
 .square{
 	border-radius: 45%;
-	background-color: rgb(25, 159, 177);
+	background-color:  rgb(25, 159, 177);
 	color: #e6e6e6;
 
 }
@@ -173,7 +173,7 @@ h2::after {
 
 }
 footer{
-	background-color: rgb(206, 203, 203);
+	background-color:aliceblue;
 }
 .Call{
 	font-size: 14px;
@@ -211,7 +211,7 @@ footer{
 	text-align: center;
   }
 section{
-	background-color:rgb(247, 244, 244);
+	background-color:aliceblue;
 	padding-top:2%;
 	padding-bottom: 2%;
 }
@@ -226,9 +226,16 @@ section{
 	text-align: center;
  color:#555
 }
+.port:hover{
+	color: rgb(59, 59, 167);
+}
 
 .micro{
 	border:1px solid rgb(198, 206, 206);
+	background-color: white;
+}
+.micro:hover{
+	border:1px solid  rgb(59, 59, 167);
 }
 
 a .im:last-child {

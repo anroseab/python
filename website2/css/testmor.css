@@ -74,7 +74,7 @@ img {
   text-align: center;
 }
 .pack{
-  background-color: rgb(165, 161, 161);
+  background-color:RGB(152, 180, 212);
 }
 .pack:hover{
   color:white;
@@ -102,7 +102,7 @@ img {
 }
 .Ayush:hover{
   color:white;
-  background-color: rgb(92, 202, 116);
+  background-color:RGB(0, 155, 119);
 }
 .from1{
   color: blue;
