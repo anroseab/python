@@ -1,3 +1,7 @@
+
+
+
+
 .nav-t{
     color: black;
     text-decoration: none;
@@ -28,3 +32,6 @@
 /* .more{
 margin-left: 50px;
 } */
+.go{
+    width: 100%;
+}

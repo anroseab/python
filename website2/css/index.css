@@ -1,41 +1,97 @@
-@media(max-width:1344px) and (min-width:1341px)
+/* @media(max-width:1370px) and (min-width:1344px)
+        {
+			
+			.pl{
+				height: 55vh;
+			}
+		} */
+
+
+@media(max-width:1344px) and (min-width:1300px)
         {
 			
 			.Unlocking{
 				font-weight: 200; 
 				font-size: 30px;
 			 }
+			 .pl{
+				height: 65vh;
+			}
 		}
 
 @media(max-width:1342px) and (min-width:1084px)
         {
 			
-			
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 20px;
+			 }
+			 .pl{
+				height: 70vh;
+			}
 			 .bh{
-				height: 50vh;
+				height: 70vh;
+			 }
+			 .go{
+				height: 100%;
 			 }
 		}
 @media(max-width:1084px) and (min-width:994px)
         {
-			
-			
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 10px;
+			 }
+			 .pl{
+				height: 70vh;
+			}
 			 .bh{
-				height: 55vh;
+				height: 80vh;
+			 }
+			 .go{
+				height: 100%;
 			 }
 		}
-@media(max-width:575px) and (min-width:300)
+@media(max-width:990px) and (min-width:575px)
         {
-			
+			.go{
+				padding-top: 10%;
+			 }
+			 .dep{
+				font-size: 34px;
+				font-weight: 100;
+			}
+		}
+@media(max-width:575px) and (min-width:300px)
+        {
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 10px;
+			 }
 			
 			.Get{
 				margin-left: 10%;
+			}
+			.go{
+				padding-top: 10%;
+			 }
+			 .dep{
+				font-size: 24px;
+				font-weight: 100;
 			}
 		}
 .Unlocking{
    font-weight: 200; 
    font-size: 60px;
 }
+.go{
+	width: 100%;
+
+}
 .bh{
+	width: 100%;
+}
+.pl{
 	width: 100%;
 }
 .gh{
@@ -324,4 +380,20 @@ h4 a{
 .Precision{
 	font-size: 34px;
 	font-weight: 500;
+}
+.HAEMATOLOGY{
+	background-color: #a7c97a;
+}
+.Hb{
+	background-color: #dbd9d9;
+}
+/* .Stool{
+	background-color: #999;
+} */
+.DIABETIC{
+	color: rgb(72, 72, 133);
+}
+.dep{
+    font-size: 64px;
+    font-weight: 400;
 }
