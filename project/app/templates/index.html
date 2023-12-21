@@ -3,29 +3,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    {% block css %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
- <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    {% endblock %}
-    <title>index</title>
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+ 
 </head>
 <body>
+
     <div class="navbg fixed-top">
         <div class="container bg-light p-2">
                
                       
           <div class="row pt-4">
-              <div class="col-lg-3 col-sm-9 col-md-9 col-9">
-                <a class="navbar-brand" href="l"><img src="{% static '/images/gmrl-logo.svg' %}" alt="" class="w-100"></a>
+              <div class="col-lg-3 col-sm-5 col-md-9 col-6">
+                <a class="navbar-brand" href=""><img src="{% static 'images/gmrl-logo.svg' %}" alt="" class="w-100"></a>
               </div>
               <div class="col-lg-1">
     
               </div>
-              <div class="col-lg col-sm col-md col">
+              <div class="col-lg col-sm col-md col col-3">
           <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,25 +35,25 @@
                 
                 <li class="nav-item">
                   <a class=" ab  nav-t p-2" aria-current="page" href="">About Us</a>
-                </li>&nbsp;&nbsp;&nbsp;
+                </li>&nbsp;
                 <li class="nav-item">
                   <a class=" abc nav-t p-2" aria-current="page" href="">Packages</a>
-                </li>&nbsp;&nbsp;&nbsp;
+                </li>&nbsp;
                 <li class="nav-item">
                   <a class=" abc nav-t p-2" aria-current="page" href="">Departments</a>
-                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </li>&nbsp;&nbsp;
                 <li class="nav-item">
-                  <a class=" abc nav-t p-2" aria-current="page" href=>Blog</a>
-                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class=" abc nav-t p-2" aria-current="page" href="">Blog</a>
+                </li>&nbsp;&nbsp;
                 <li class="nav-item">
-                  <a class=" abc nav-t p-2" aria-current="page" href=>Gallery</a>
-                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class=" abc nav-t p-2" aria-current="page" href="">Gallery</a>
+                </li>&nbsp;&nbsp;
                 <li class="nav-item">
-                  <a class=" abc nav-t p-2" aria-current="page" href=>Branches</a>
-                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class=" abc nav-t p-2" aria-current="page" href="">Branches</a>
+                </li>&nbsp;&nbsp;
                 <li class="nav-item">
                   <a class=" abc nav-t p-2" aria-current="page" href="">Contact us</a>
-                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </li>&nbsp;&nbsp;
                </ul>
                   
             </div>
@@ -66,19 +64,16 @@
       </div>
       </div>
       </div>
-      
+       
 
 
 
-
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="1000">
+          <div class="carousel-item active" data-bs-interval="5000">
             <div class="row li mt-5">
-                <!-- <div class="col-lg-1 ">
-      
-                </div> -->
-                <div class="col-lg-6 mt-5 ">
+              
+                <div class="col-lg-6 col-md-12 col-12  mt-5 ">
                     <h1 class=" ms-5 mt-5 pe-5 ps-5 Unlocking">Unlocking vital </h1>
                     <h1 class=" ms-5 pe-5 ps-5 Unlocking"> insights: Your Blood ,your lab</h1>
                     <p class=" ms-5 pe-5 ps-5 ">unlocking vital insights:where your blood hold the key to your</p>
@@ -89,17 +84,17 @@
                     </div>
                   </div>  
                 </div>
-                  <div class="col-lg-6 col-md-6 col-sm-5 col-5">
+                  <div class="col-lg-6 col-md-12  col-12">
                           
-                       <img src="{% static '/images/banner-01.jpg' %}" class="w-100">               
+                       <img src="{% static  'images/banner-01.jpg' %} " class=" bh">               
                                
                           
                       
                   </div>
               </div>           </div>
-          <div class="carousel-item" data-bs-interval="1000">
+          <div class="carousel-item" data-bs-interval="5000">
             <div class="row li mt-5">
-                <div class="col-lg-6 mt-5 ">
+                <div class="col-lg-6 col-md-12  col-12 mt-5 ">
                     <h1 class=" ms-5 mt-5 pe-5 ps-5 Unlocking">Unlocking vital </h1>
                     <h1 class=" ms-5 pe-5 ps-5 Unlocking"> insights: Your Blood ,your lab</h1>
                     <p class=" ms-5 pe-5 ps-5 ">unlocking vital insights:where your blood hold the key to your</p>
@@ -110,9 +105,9 @@
                     </div>
                   </div>  
                 </div>
-                  <div class="col-lg-6 col-md-6 col-sm-5 col-5">
+                  <div class="col-lg-6 col-md-12  col-12">
                           
-                               <img src="{% static '/images/banner-02.jpg' %}" class="w-100">               
+                               <img src="{% static  'images/banner-02.jpg' %}" class=" bh">               
                             
                           
                      
@@ -121,336 +116,26 @@
           
         </div>
      
-</div>
+</div> -->
 
-<div class="container">
+<!-- <div class="container">
     <div class="row mt-5">
-        <div class="col-lg-6 ">
-            <img src="{% static '/images/welcome-image.jpg' %}" alt="" class="w-100">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <img src="{% static  'images/welcome-image.jpg' %}" alt="" class="pl mb-2">
         </div>
-        <div class="col-lg-6 ">
-            <h5 class="ms-5 Welcome">Welcome to GMRL Labs</h5>
-            <h1 class="ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-            <p class="ms-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum alias provident modi qui ipsam sunt accusamus, architecto quidem nisi? Dolorem quis praesentium suscipit obcaecati. Ad quia placeat necessitatibus.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum alias provident modi qui ipsam sunt accusamus, architecto quidem nisi? Dolorem quis praesentium suscipit obcaecati. Ad quia placeat necessitatibus.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum alias provident modi qui ipsam sunt accusamus, architecto quidem nisi? Dolorem quis praesentium suscipit obcaecati. Ad quia placeat necessitatibus. </p>
-                <p class="ms-5 mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum alias provident modi qui ipsam sunt accusamus, architecto quidem nisi? Dolorem quis praesentium suscipit obcaecati. Ad quia placeat necessitatibus.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum alias provident modi qui ipsam sunt accusamus, architecto quidem nisi? Dolorem quis praesentium suscipit obcaecati. Ad quia placeat necessitatibus.
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <h5 class="mb-4 Welcome">Welcome to GMRL Labs</h5>
+            <h1 class="mb-4 Precision">Elevating Health Through
+              Precision Diagnostics: GMRL Laboratories</h1>
+            <p class="mb-4">GMRL Laboratories, situated in the heart of Thrippunithura, is your trusted destination for comprehensive Health Check Up Packages at an affordable cost. Our commitment to excellence is showcased through our state-of-the-art, fully automated analyzers, which undergo daily verification against Biorad USA Quality Controls. This stringent quality assurance ensures that your diagnostic results are not only accurate but also reliable. </p>
+                <p class="mb-4 mt-3">Our dedicated professionals are here to guide you through every step of your health assessment, with a mission to provide the highest standard of care and convenience. At GMRL Laboratories, your well-being is our priority, and we’re honored to be your trusted partner on your journey to a healthier, happier life.
                 </p>
-                <button class=" ms-5 pt-2 pb-2 ps-3 pe-3  glow-on-hover">Learn more</button>
+                <button class="  pt-2 pb-2 ps-3 pe-3 Learn glow-on-hover">Learn more</button>
 
         </div>
     </div>
 
-</div>
-
-
-
-
-
-
-<div class="container mt-5 mb-5">
-    <div class="row mb-5">
-      <div class="col-lg home">
-        <a href="">
-          <img src="{% static '/images/icons8-appointments-60 (copy).png' %}" alt="image" class="im p-3 ms-3">
-          <img src="{% static '/images/icons8-appointments-60.png' %}" alt="img2" class="im p-3 ms-3">
-        </a>
-        <p class="port">Book An Appointment</p>
-      </div>
-      <div class="col-lg locat">
-        <a href="">
-          <img src="{% static '/images/icons8-location-60.png' %}" alt="image" class="im p-3 ms-5">
-          <img src="{% static '/images/icons8-place-marker-60.png' %}" alt="img2" class="im p-3 ms-5">
-        </a>
-         <p class="port me-5 ">Reach us</p>
-        
-      </div>
-      <div class="col-lg locat">
-        <a href="">
-          <img src="{% static '/images/icons8-microscope-60.png' %}" alt="img2" class="im p-3 ms-5">
-          <img src="{% static '/images/icons8-microscope-60 (copy).png' %}" alt="image" class="im p-3 ms-5">
-  
-        </a>
-        <p class="port">Available Tests </p>
-      </div>
-      <div class="col-lg locat">
-        <a href="">
-          <img src="{% static '/images/icons8-first-aid-box-60 (1).png' %}" alt="img2" class="im p-3 ms-5">
-          <img src="{% static '/images/icons8-first-aid-kit-60.png' %}" alt="image" class="im p-3 ms-5">
-  
-        </a>
-        <p class="port">Health Packages</p>
-      </div>
-      <div class="col-lg home">
-        <a href="">
-          <img src="{% static '/images/icons8-home-60.png' %}" alt="image" class="im p-3 ms-5">
-          <img src="{% static '/images/icons8-home-60(1).png' %}" alt="img2" class="im p-3 ms-5">
-        </a>
-        <p class="port me-2">Home Visit</p>
-      </div>
-    </div>
-  </div>
-  
-
-
-
-
-
-  <section>
-  
-
-    <div class="container mt-5">
-      <div class="row">
-        <h3 class="Diverse">
-          Diverse Departments 
-             </h3>
-         <h3 class="Diverse">
-          for Comprehensive Health Services
-         </h3>
-        </div>
-      </div>
-    
-    <div id="carouselExample" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="row">
-              
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/Immunology.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">Immunology</p>
-              </div>
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/bio-chemistry.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">bio-chemistry</p>
-              </div>
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/molecular-biology.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">molecular-biology</p>
-              </div>
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/microbiology.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">microbiology</p>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row ">
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/radiology.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">radiology</p>
-              </div>
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/Serology.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">Serology</p>
-              </div>
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/molecular-biology.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">molecular-biology</p>
-              </div>
-              <div class="col-lg micro me-2">
-                <img src="{% static '/images/microbiology.png' %}" alt="" class="ms-5 p-5">
-                <p class="port">microbiology</p>
-               
-              </div>
-            </div>
-          </div>
-          
-        </div>
-     
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    </div>
-    
-    
-    
-    
-    </section>
-
-
-
-    <div class="container mb-5  ">
-        <div class="row  p-3 ">
-            <div class="col-lg-1 pb-3 box1 mb-3 mt-3 pb-5 pt-5">
-              <i class="fa fa-phone" style="font-size:48px;color:white"></i>      </div>
-            <div class="col-lg-4 box1  mb-3 mt-3 pb-5 pt-5">
-              <h4>Emergency Call: </h4>
-              <p class="Call"><p>Immediate Assistance Available - Dial Now!</p></p>
-            </div>
-            <div class="col-lg-3 box1 mb-3 mt-3 pb-5 pt-5">
-              <h4 class="tel">+91 81388 62626</h4>
-                  </div>
-            <div class="col-lg-1 box2 mb-3 mt-3 pb-5 pt-5">
-              <i class="fa fa-download" style="font-size:48px;color:white"></i>
-            </div>
-            <div class="col-lg-3 box2 mb-3 mt-3 pb-5 pt-5">
-                    <p>
-                      Download
-                   </p>    
-                <h3>
-                  BROUCHURE
-                </h3>
-            </div>
-          
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-lg ms-5">
-            <h3>
-              GMRL Laboratories:
-             </h3>
-             <h3>
-              Unveiling Our Range of Health Packages
-        
-             </h3>
-          </div>
-          <div class="col-lg-2">
-            <button class="pt-2 pb-2 ps-3 pe-3  glow-on-hover">View More</button>
-          </div>
-         
-         
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      <div id="carouselExampleControls" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row container-sm d-flex  justify-content-around">
-                <div class="col-lg-3" >
-                  <div class="pack" style="width:26rem;" >
-                    <h5 class="from">From:$25</h5>
-                     <div class="wrapper -2 ">   
-                       <img src="{% static '/images/package2 (copy).jpg' %}" class=" w-100 overla mx-0" alt="..">
-                       <div class="overlaying">
-                         <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                       </div>            
-                     </div> 
-      
-                     <p class="p-4 Ayush">Ayush General</p>
-                     </div>
-                   
-                </div>
-                <div class="col-lg-3 ms-4">
-                  <div class="pack" style="width:26rem;">
-                    <h5 class="from">From:$25</h5>
-                     <div class="wrapper -2 ">
-                       <img src="{% static '/images/package1.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                       <div class="overlaying">
-                         <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                       </div>
-                    
-                     </div>
-                     <p class="p-4 Ayush">Executive Package</p>
-                     </div>
-                </div>
-                <div class="col-lg-3 ms-4">
-                  <div class="pack" style="width:26rem;">
-                    <h5 class="from">From:$25</h5>
-                     <div class="wrapper -2 ">
-                      
-                       <img src="{% static '/images/package3.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                       <div class="overlaying">
-                         <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                       </div>
-                    
-                     </div>
-                     <p class="p-4 Ayush">Ayush Silver Plan</p>
-                     </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row container-sm d-flex  justify-content-around">
-                <div class="col-lg-3">
-                  <div class="pack" style="width:26rem;">
-                    <h5 class="from">From:$25</h5>
-                     <div class="wrapper -2 ">
-                      
-                       <img src="{% static '/images/package4.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                     
-                       <div class="overlaying">
-                         <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                       </div>
-                    
-                     </div>
-                     <p class="p-3 Ayush">Ayush Diabetic & Kidney Care</p>
-                     </div>
-                </div>
-                <div class="col-lg-3 ms-4">
-                  <div class="pack" style="width:26rem;">
-                    <h5 class="from">From:$25</h5>
-                     <div class="wrapper -2 ">
-                      
-                       <img src="{% static '/images/package5.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                     
-                       <div class="overlaying">
-                         <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                       </div>
-                    
-                     </div>
-                     <p class="p-3 Ayush">Ayush Gold</p>
-                     </div>
-                </div>
-                <div class="col-lg-3 ms-4 mb-5">
-                  <div class="pack" style="width:26rem;">
-                    <h5 class="from">From:$25</h5>
-                     <div class="wrapper -2 ">
-                      
-                       <img src="{% static '/images/package3.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                     
-                       <div class="overlaying">
-                         <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                       </div>
-                    
-                     </div>
-                     <p class="p-3 Ayush">Ayush Silver Plan</p>
-                     </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>   
-
-
-
+</div> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 

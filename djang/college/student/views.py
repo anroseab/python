@@ -1,10 +1,13 @@
-from django.shortcuts import render
-# from django.http import HttpResponse
-from . models import *
+from django.shortcuts import render,redirect
+from django.contrib.auth.forms import UserChangeForm
 # Create your views here.
 
 def index(request):
-    student=Student.objects.all()
-    teacher=Teacher.objects.all()
-    batch=Batch.objects.all()
-    return render(request,'index.html',{'student':student,'teacher':teacher,'batch':batch})
+    form=UserChangeForm(request.POST)
+
+    if form.is_valid():
+        form.save()
+        return redirect('home')
+    return render(request,'index.html',{'form':form})
+def home(request):
+    return render(request,'home.html')
