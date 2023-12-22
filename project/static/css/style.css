@@ -1,3 +1,112 @@
+@media(max-width:1344px) and (min-width:1300px)
+        {
+			
+			.Unlocking{
+				font-weight: 200; 
+				font-size: 30px;
+			 }
+			 .pl{
+				height: 65vh;
+			}
+		}
+
+@media(max-width:1342px) and (min-width:1084px)
+        {
+			
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 20px;
+			 }
+			 .pl{
+				height: 70vh;
+			}
+			 .bh{
+				height: 70vh;
+			 }
+			 .go{
+				height: 100%;
+			 }
+       .aq{
+        height:50vh ;
+        width: auto;
+       }
+		}
+		
+@media(max-width:1084px) and (min-width:985px)
+        {
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 10px;
+			 }
+			 .pl{
+				height: 70vh;
+			}
+			 .bh{
+				height: 70vh;
+			 }
+			 .go{
+				height: 100%;
+			 }
+       .aq{
+        height:50vh ;
+        width: auto;
+       }
+		}
+
+@media(max-width:990px) and (min-width:575px)
+        {
+			.go{
+				padding-top: 10%;
+			 }
+			 .dep{
+				font-size: 34px;
+				font-weight: 100;
+			}
+		}
+@media(max-width:575px) and (min-width:300px)
+        {
+			.Unlocking{
+				font-weight: 100; 
+				font-size: 10px;
+			 }
+			
+			.Get{
+				margin-left: 10%;
+			}
+			.go{
+				padding-top: 10%;
+			 }
+			 .dep{
+				font-size: 24px;
+				font-weight: 100;
+			}
+		}
+.Unlocking{
+   font-weight: 200; 
+   font-size: 60px;
+}
+.go{
+	width: 100%;
+
+}
+.bh{
+	width: 100%;
+}
+.pl{
+	width: 100%;
+}
+.aq{
+  width: 100%;
+}
+.gh{
+	width: 31%;
+}
+
+.Diverse{
+	text-align: center;
+}
+
+
 .nav-t{
     color: black;
     text-decoration: none;
@@ -16,9 +125,7 @@
  .Learn{
     background-color: rgb(22, 89, 212);
     color: white;
-    /* border-radius: 30%; */
     border-radius:20px;
-    /* border-color:  rgb(22, 89, 212); */
     border:1px solid rgb(22, 89, 212);
 }
 .li{
@@ -125,7 +232,6 @@ section{
 .from{
     color: blue;
     background-color: white;
-    /* bottom: 0px; */
     position: absolute;
     z-index: 10;
     top:10px;
@@ -136,7 +242,6 @@ section{
     width: 100%;
     background: radial-gradient(#4768ad 50%, #6262ee 100%);
     overflow: hidden;
-    /* cursor: pointer; */
   }
   
   img {
@@ -181,7 +286,6 @@ section{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    /* background-color: #008CBA; */
   }
   .wrapper:hover .overlaying {
     opacity: .7;
@@ -199,4 +303,91 @@ section{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+  .bor{
+	background-color: white;
+  }
+  .bor:hover{
+	border: 1px solid rgb(66, 66, 165);
+  }
+  .dolor{
+    color: #000;
+    }
+    .mar{
+      border-top: 1px solid rgb(202, 196, 196);
+    }
+    .image{
+      background-color: rgb(206, 203, 203);
+      border-radius: 50%;
+    }
+    .con{
+      border:1px solid blue;
+    }
+    .tex{
+      text-align: center;
+    }
+    .Lear{
+      background-color: rgb(22, 89, 212);
+        color: white;
+        border:1px solid rgb(22, 89, 212);	
+    }
+    .box{
+      background-color: #7AA641;
+    }
+    footer{
+      background-color:aliceblue;
+    }
+    .Call{
+      font-size: 14px;
+    }
+    .Book{
+      border-radius:100px;
+      color: #7AA641;
+      background-color: #000;
+      border: #000;
+    }
+    .Book:hover{
+      background-color: rgb(72, 72, 182);
+      color:white;
+    }
+
+    .face{
+      border-radius: 45%;
+    }
+    .square{
+      border-radius: 45%;
+      background-color:  rgb(25, 159, 177);
+      color: #e6e6e6;
+    
+    }
+    .linkedin{
+      border-radius: 45%;
+    }
+    .about{
+      font-size: 64px;
+      font-weight: 400;
+  }
+  .colo{
+    background-image: linear-gradient( white,rgb(193, 218, 235));
+}
+  .welcome{
+      letter-spacing: 0.5px;
+      font-size: 20px;
+      font-weight: 200;
+  }
+  .Boo{
+      text-align: center;
+  }
+  .Experience{
+      font-size: 14px;
+      color: #918b8b;
+      font-weight: 300;
+      text-align: center;
+  
+  }
+  /* .more{
+  margin-left: 50px;
+  } */
+  .go{
+      width: 100%;
   }
