@@ -10,6 +10,8 @@
     {% block css %}
 
  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+ <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+
     {% endblock %}
     <title>index</title>
 </head>
@@ -20,7 +22,7 @@
                   
       <div class="row pt-4">
           <div class="col-lg-3 col-sm-5 col-md-9 col-6">
-            <a class="navbar-brand" href=""><img src="{% static 'images/gmrl-logo.svg' %}" alt="" class="w-100"></a>
+            <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static 'images/gmrl-logo.svg' %}" alt="" class="w-100"></a>
           </div>
           <div class="col-lg-1">
 
@@ -36,25 +38,25 @@
           <ul class="navbar-nav  mb-2 mb-lg-0 nav2">
             
             <li class="nav-item">
-              <a class=" ab  nav-t p-2" aria-current="page" href="">About Us</a>
+              <a class=" ab  nav-t p-2" aria-current="page" href="{% url 'about' %}">About Us</a>
             </li>&nbsp;
             <li class="nav-item">
-              <a class=" abc nav-t p-2" aria-current="page" href="">Packages</a>
+              <a class=" abc nav-t p-2" aria-current="page" href="{% url 'packages' %}">Packages</a>
             </li>&nbsp;
             <li class="nav-item">
-              <a class=" abc nav-t p-2" aria-current="page" href="">Departments</a>
+              <a class=" abc nav-t p-2" aria-current="page" href="{% url 'department' %}">Departments</a>
             </li>&nbsp;&nbsp;
             <li class="nav-item">
-              <a class=" abc nav-t p-2" aria-current="page" href="">Blog</a>
+              <a class=" abc nav-t p-2" aria-current="page" href="{% url 'blog' %}">Blog</a>
             </li>&nbsp;&nbsp;
             <li class="nav-item">
-              <a class=" abc nav-t p-2" aria-current="page" href="">Gallery</a>
+              <a class=" abc nav-t p-2" aria-current="page" href="{% url 'gallery' %}">Gallery</a>
             </li>&nbsp;&nbsp;
             <li class="nav-item">
-              <a class=" abc nav-t p-2" aria-current="page" href="">Branches</a>
+              <a class=" abc nav-t p-2" aria-current="page" href="{% url 'branch' %}">Branches</a>
             </li>&nbsp;&nbsp;
             <li class="nav-item">
-              <a class=" abc nav-t p-2" aria-current="page" href="">Contact us</a>
+              <a class=" abc nav-t p-2" aria-current="page" href="{% url 'contact' %}">Contact us</a>
             </li>&nbsp;&nbsp;
            </ul>
               
@@ -337,118 +339,27 @@
   
   
   
-  <div id="carouselExampleControls" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="container">
-          <div class="row container-sm d-flex  justify-content-around">
-            <div class="col-lg ">
-              <div class="pack ">
-                <!-- <h5 class="from">From:$25</h5> -->
-                 <div class="wrapper -2 ">   
-                   <img src=" {% static 'images/package2 (copy).jpg' %}" class=" w-100 overla mx-0" alt="..">
-                   <div class="overlaying">
-                     <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                   </div>            
-                 </div>
-                 <p class="p-4 Ayush">Ayush General</p>
-                 </div>
-            </div>
-            <div class="col-lg">
-              <div class="pack " >
-                <!-- <h5 class="from">From:$25</h5> -->
-                 <div class="wrapper -2 ">
-                   <img src=" {% static 'images/package1.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                   <div class="overlaying">
-                     <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                   </div>
-                
-                 </div>
-                 <p class="p-4 Ayush">Executive Package</p>
-                 </div>
-            </div>
-            <div class="col-lg">
-              <div class="pack " >
-                <!-- <h5 class="from">From:$25</h5> -->
-                 <div class="wrapper -2 ">
-                  
-                   <img src="{% static 'images/package3.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                   <div class="overlaying">
-                     <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                   </div>
-                
-                 </div>
-                 <p class="p-4 Ayush">Ayush Silver Plan</p>
-                 </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container">
-          <div class="row container-sm d-flex  justify-content-around">
-            <div class="col-lg">
-              <div class="pack " >
-                <!-- <h5 class="from">From:$25</h5> -->
-                 <div class="wrapper -2 ">
-                  
-                   <img src="{% static 'images/package4.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                 
-                   <div class="overlaying">
-                     <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                   </div>
-                
-                 </div>
-                 <p class="p-3 Ayush">Ayush Diabetic & Kidney Care</p>
-                 </div>
-            </div>
-            <div class="col-lg ">
-              <div class="pack" >
-                <!-- <h5 class="from">From:$25</h5> -->
-                 <div class="wrapper -2 ">
-                  
-                   <img src="{% static 'images/package5.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                 
-                   <div class="overlaying">
-                     <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                   </div>
-                
-                 </div>
-                 <p class="p-3 Ayush">Ayush Gold</p>
-                 </div>
-            </div>
-            <div class="col-lg mb-5">
-              <div class="pack" >
-                <!-- <h5 class="from">From:$25</h5> -->
-                 <div class="wrapper -2 ">
-                  
-                   <img src="{% static 'images/package3.jpg' %}" class=" w-100 overla mx-0" alt="..">
-                 
-                   <div class="overlaying">
-                     <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
-                   </div>
-                
-                 </div>
-                 <p class="p-3 Ayush">Ayush Silver Plan</p>
-                 </div>
-            </div>
-          </div>
-        </div>
-        
+  <div class="container mt-5 mb-5">
+    <div class="row ">
+      {% for i in obj %}
+      <div class="col-lg-4 col-md-6">
+        <div class="pack" >
+          <a href="{% url 'subpackage' %}">
+           <div class="wrapper -2 ">   
+             <img src="{{i.image.url}}" class=" w-100 overla mx-0" alt="..">
+             <div class="overlaying">
+               <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
+             </div>            
+           </div></a>
+           <p class="p-4 Ayush">{{i.description}}</p>
+           </div>
       </div>
     
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  </div>   
+     {%endfor%}
+    </div>
+    </div>
 
-
+    
 
   <section class="mt-5">
     <div class="container">

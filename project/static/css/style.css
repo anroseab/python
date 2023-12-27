@@ -391,3 +391,123 @@ section{
   .go{
       width: 100%;
   }
+  .Precision{
+    font-size: 34px;
+    font-weight: 500;
+  }
+  .HAEMATOLOGY{
+    background-color: #a7c97a;
+  }
+  .Hb{
+    background-color: #dbd9d9;
+  }
+  /* .Stool{
+    background-color: #999;
+  } */
+  .DIABETIC{
+    color: rgb(72, 72, 133);
+  }
+  .dep{
+      font-size: 64px;
+      font-weight: 400;
+  }
+  .nav-t{
+    color: black;
+    text-decoration: none;
+  
+  }
+.about{
+    font-size: 64px;
+    font-weight: 400;
+}
+.colo{
+    background-image: linear-gradient( white,rgb(193, 218, 235));
+}
+.welcome{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.back12{
+    background-color: rgb(175, 209, 224);
+}
+.demo>[class*='col-']
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.dep{
+    font-size: 64px;
+    font-weight: 400;
+}
+.pack{
+  background-color:RGB(152, 180, 212);
+}
+.pack:hover{
+  color:white;
+  background-color: rgb(92, 202, 116);
+}
+
+.from{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 15%;
+}
+.Ayush{
+  color: black;
+  text-decoration: none;
+}
+.Ayush:hover{
+  color:white;
+  background-color:RGB(0, 155, 119);
+  text-decoration: none;
+
+}
+.from1{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 17%;
+}
+.from2{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  margin-left: 17%;
+}
+.from3{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:370px;
+  margin-left: 17%;
+}
+.from4{
+  color: blue;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top:370px;
+  margin-left: 17%;
+}  
+.cla{
+  background-color: #4768ad;
+  color: white;
+  text-align: center;
+}
+.Ayush{
+  text-decoration: none;
+}
+.deco{
+  text-decoration: none;
+}
+a.Ayush{  text-decoration: none;
+}
