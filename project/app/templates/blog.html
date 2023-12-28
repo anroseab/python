@@ -111,18 +111,20 @@
 
 <div class="container mt-5 mb-5">
 <div class="row ">
+  {% for i in m %}
+
   <div class="col-lg-4">
     <div class="pack" style="width:26rem;">
        <div class="wrapper -2 ">   
-         <img src="{% static 'images/molecular-biology (1).jpg' %}" class=" w-100 overla mx-0 " alt="..">
+         <img src="{{i.image.url}}" class=" w-100 overla mx-0 " alt="..">
          <div class="overlaying">
            <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
          </div>            
        </div>
-       <p class="p-4 Ayush">Unlocking the Power of Genes: Exploring the Impact of Molecular Biology on Personalized </p>
+       <p class="p-4 Ayush">{{i.description}} </p>
        </div>
   </div>
-  <div class="col-lg-4 ">
+  <!-- <div class="col-lg-4 ">
     <div class="pack" style="width:26rem;">
        <div class="wrapper -2 ">
          <img src="{% static 'images/radiology.jpg' %}" class=" w-100 overla mx-0" alt="..">
@@ -133,9 +135,9 @@
        </div>
        <p class="p-4 Ayush">Beyond Images: The Vital Role of Radiology in Modern Diagnostic Excellence</p>
        </div>
-  </div>
+  </div> -->
  
- 
+  {%endfor%}
 </div>
 </div>
 

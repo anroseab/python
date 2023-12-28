@@ -3,12 +3,16 @@ from . models import *
 # Register your models here.
 class Packages_display(admin.ModelAdmin):
     list_display=['image','description']
-class Subpackage_display(admin.ModelAdmin):
-    list_display=['image','description','test1','test2','test3','test4','test5','cost']
+class Blog_display(admin.ModelAdmin):
+    list_display=['image','description']
 
+class Contact_display(admin.ModelAdmin):
+    list_display=['name','email','phone','message','subject']
 
-
-
+class Enquiry_display(admin.ModelAdmin):
+    list_display=['name','email','phone','message']
 
 admin.site.register(Packages,Packages_display)
-admin.site.register(Subpackage,Subpackage_display)
+admin.site.register(Blog,Blog_display)
+admin.site.register(Contact,Contact_display)
+admin.site.register(Enquiry,Enquiry_display)

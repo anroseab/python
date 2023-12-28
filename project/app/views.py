@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from . models import *
 # Create your views here.
 def index(request):
@@ -6,6 +6,17 @@ def index(request):
     
     obj=Packages.objects.all()
     context['obj']=obj
+    if request.method=='POST':
+          name=request.POST.get('name')
+          email=request.POST.get('email')
+          phone=request.POST.get('phone')
+          message=request.POST.get('message')
+          
+          if request.POST:
+               details=Enquiry.objects.create(name=name,email=email,phone=phone,message=message)
+               details.save()
+               return redirect('index')
+
     return render(request,'index.html',context)
 
 def about(request):
@@ -23,20 +34,35 @@ def gallery(request):
 def department(request):
     return render(request,'department.html')
 def contact(request):
+    if request.method=='POST':
+          name=request.POST.get('name')
+          email=request.POST.get('email')
+          phone=request.POST.get('phone')
+          subject=request.POST.get('subject')
+          message=request.POST.get('message')
+     
+          if request.POST:
+               details=Contact.objects.create(name=name,email=email,phone=phone,subject=subject,message=message)
+               details.save()
+               return redirect('contact')
+
     return render(request,'contact.html')
 def branch(request):
     return render(request,'branch.html')
 def appointment(request):
     return render(request,'appointment.html')
 def blog(request):
-    return render(request,'blog.html')
+    context={}
+          
+    m=Blog.objects.all()
+    context['m']=m
+
+    return render(request,'blog.html',context)
 def subblog(request):
     return render(request,'subblog.html')
 def subpackage(request):
     context={}
     
-    sub=Subpackage.objects.all()
     obj=Packages.objects.all()
     context['obj']=obj
-    context['sub']=sub
     return render(request,'subpackage.html',context)

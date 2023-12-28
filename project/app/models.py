@@ -5,18 +5,21 @@ class Packages(models.Model):
     image=models.ImageField(upload_to='img')
     description=models.CharField(max_length=255)
     
-    def __str__(self):
-        return str(self.image) 
-
-
-
-class Subpackage(models.Model):
+    
+class Blog(models.Model):
+    image=models.ImageField(upload_to='img')
     description=models.CharField(max_length=255)
-    image=models.ForeignKey(Packages,on_delete=models.CASCADE)
-    test1=models.CharField(max_length=255)
-    test2=models.CharField(max_length=255)
-    test3=models.CharField(max_length=255)
-    test4=models.CharField(max_length=255)
-    test5=models.CharField(max_length=255)
-    cost=models.CharField(max_length=255)
 
+class Contact(models.Model):
+    name=models.CharField(max_length=50)
+    email=models.EmailField()
+    phone=models.CharField(max_length=10)
+    subject=models.CharField(max_length=50)
+    message=models.TextField()
+
+
+class  Enquiry(models.Model):
+    name=models.CharField(max_length=50)
+    email=models.EmailField()
+    phone=models.CharField(max_length=10)
+    message=models.TextField()

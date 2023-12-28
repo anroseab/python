@@ -134,33 +134,36 @@
         <img src="{% static 'images/package4.jpg' %}" alt="" class="w-100">
       </div>
       <div class="col-lg-6 ">
+        <form action="" method="POST">
+          {% csrf_token %}
         <div class="row">
            <h3 class="mt-3 ">
             Send us a message
           </h3>
           <p class="  ">Connect with us and share your thoughts – your message matters to us.</p>
-            
             <div class="col-lg-6 mb-3">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name"   name="name"  /required>
             </div>
             <div class="col-lg-6 mb-3">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"   name="email" /required>
             </div>
             <div class="col-lg-6 mb-3">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone number">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone number"   name="phone"  /required>
             </div>
             <div class="col-lg-6 mb-3">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"   name="subject"  /required>
   
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"  name="message"  /required></textarea>
   
             </div>
             <div class="col-lg-3">
-              <button class="  pt-2 pb-2 Lear w-100">Submit</button>
+              <button class="  pt-2 pb-2 Lear w-100" name="submit" >Submit</button>
             </div>
         </div>
+      </form>
+
        </div>
     </div>
   </div>
