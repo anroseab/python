@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from . models import *
-# Create your views here.
+import datetime
+from django.core.exceptions import ValidationError
 def index(request):
     context={}
     
@@ -50,6 +51,26 @@ def contact(request):
 def branch(request):
     return render(request,'branch.html')
 def appointment(request):
+    if request.method=='POST':
+          name=request.POST.get('name')
+          email=request.POST.get('email')
+          phone=request.POST.get('phone')
+          message=request.POST.get('message')
+          age=request.POST.get('age')
+          gender=request.POST.get('gender')
+          address=request.POST.get('address')
+          date=request.POST.get('date')
+          time=request.POST.get('time')
+
+
+          if request.POST:
+               details=Appointment.objects.create(name=name,email=email,phone=phone,message=message,age=age,gender=gender,address=address,date=date,time=time)
+               details.save()
+               return redirect('appointment')
+          
+
+
+
     return render(request,'appointment.html')
 def blog(request):
     context={}
@@ -62,7 +83,13 @@ def subblog(request):
     return render(request,'subblog.html')
 def subpackage(request):
     context={}
-    
-    obj=Packages.objects.all()
+    # if request.method=='POST':
+    #     obj=request.POST.get('package')
+
+    obj=Packages.objects.all()  
+    # sub=Sub_package.objects.filter(package=obj)
+    sub=Sub_package.objects.all()  
+
     context['obj']=obj
+    context['sub']=sub
     return render(request,'subpackage.html',context)

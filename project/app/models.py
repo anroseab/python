@@ -4,6 +4,8 @@ from django.db import models
 class Packages(models.Model):
     image=models.ImageField(upload_to='img')
     description=models.CharField(max_length=255)
+    def __str__(self):
+        return self.description
     
     
 class Blog(models.Model):
@@ -23,3 +25,26 @@ class  Enquiry(models.Model):
     email=models.EmailField()
     phone=models.CharField(max_length=10)
     message=models.TextField()
+
+class Appointment(models.Model):
+    name=models.CharField(max_length=50)
+    email=models.EmailField()
+    phone=models.CharField(max_length=10)
+    message=models.TextField()
+    age=models.CharField(max_length=10)
+    gender=models.CharField(max_length=10)
+    address=models.TextField()
+    date=models.DateField(null=True)
+    time=models.TimeField()
+
+
+class Sub_package(models.Model):
+    name=models.CharField(max_length=50)
+    test1=models.CharField(max_length=50)
+    test2=models.CharField(max_length=50)
+    test3=models.CharField(max_length=50)
+    test4=models.CharField(max_length=50)
+    test5=models.CharField(max_length=50)
+    cost=models.CharField(max_length=50)
+    image=models.ImageField(upload_to='image')
+    package=models.ForeignKey(Packages,on_delete=models.CASCADE)

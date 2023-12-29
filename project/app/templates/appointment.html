@@ -105,43 +105,45 @@
               <p class="Experience">
                   Experience personalized care with our expert team—schedule your appointment for comprehensive health assessments and proactive well-being.
               </p>
-              <form action="">
+              <form action="" method="POST">
+                {% csrf_token %}
+
                   <div class="col-lg">
                       <div class="row">
   
                           <div class="col-lg-12 mt-3">
                               <label >Your Name</label>
-                              <input type="text" class="form-control" id="exampleFormControlInput1" /required>
+                              <input type="text" class="form-control" id="exampleFormControlInput1" name='name' /required>
                           </div>
   
                           <div class="col-lg-6 mt-3">
                               <label > Email</label>
-                              <input type="email" class="form-control" id="exampleFormControlInput1" /required>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" name='email' /required>
                           </div>
   
                           <div class="col-lg-6 mt-3">
                               <label >Phone</label>
-                              <input type="text" class="form-control" id="exampleFormControlInput1" /required>
+                              <input type="text" class="form-control" id="exampleFormControlInput1" name='phone' /required>
                           </div>
   
                           <div class="col-lg-6 mt-3">
                               <label >Date</label>
-                              <input type="date" class="form-control" id="exampleFormControlInput1" /required>
+                              <input type="date" class="form-control" id="exampleFormControlInput1" name='date' /required>
                           </div>
   
                           <div class="col-lg-6 mt-3">
                               <label >Time</label>
-                              <input type="time" class="form-control" id="exampleFormControlInput1" /required>
+                              <input type="time" class="form-control" id="exampleFormControlInput1" name='time' /required>
                            </div>
   
                           <div class="col-lg-6 mt-3">
                               <label >Age</label>
-                              <input type="number" class="form-control" id="exampleFormControlInput1" /required>
+                              <input type="number" class="form-control" id="exampleFormControlInput1" name='age' /required>
                           </div>
   
                           <div class="col-lg-6 mt-3">
                               <label >Gender</label>
-                              <select class="form-select" aria-label="">
+                              <select class="form-select" aria-label=""  name='gender' /required>
                                   <option value="1">Male</option>
                                   <option value="2">Female</option>
                                   <option value="3">Other</option>
@@ -150,12 +152,12 @@
   
                           <div class="col-lg-12 mt-3">
                               <label >Address</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  name='address' /required ></textarea>
                           </div>
   
                           <div class="col-lg-12 mt-3">
                               <label >Message</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  name='message' /required></textarea>
   
                           </div>
                           <div class="col-lg">

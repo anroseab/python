@@ -99,23 +99,24 @@
 
 <div class="container mt-5">
 <div class="row">
+  {% for i in sub %}
 <div class="col-lg-8">
-    <h4>ada</h4>
+    <h4>{{i.name}}</h4>
     <ul>
         <li>
-          suger
+          {{i.test1}}
         </li>
         <li>
-          suger
+          {{i.test2}}
         </li>
         <li>
-          suger
+          {{i.test3}}
         </li>
         <li>
-          suger
+          {{i.test4}}
         </li>
         <li>
-          suger
+          {{i.test4}}
         </li>
         
     </ul>
@@ -123,14 +124,14 @@
 <div class="col-lg-4 ">
   <div class="row">
     <div class="col-lg-12  ">
-      <p class="pe-5 ps-5 pt-2 pb-2 cla">From:$   </p>
+      <p class="pe-5 ps-5 pt-2 pb-2 cla">From:${{i.cost}}   </p>
     </div>
     <div class="col-lg-12">
-      <img src="" alt="" class="w-100">
+      <img src="{{i.image.url}}" alt="" class="w-100">
     </div>
   </div>
 </div>
-
+{% endfor%}
 </div>
 </div>
 
