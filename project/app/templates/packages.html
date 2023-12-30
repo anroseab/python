@@ -112,14 +112,14 @@
   {% for i in obj %}
   <div class="col-lg-4 col-md-6">
     <div class="pack" >
-      <a href="{% url 'subpackage' %} " value="{{i.id}}" name="package">
+      <a href="{% url 'subpackage' i.package %} " >
        <div class="wrapper -2 ">   
-         <img src="{{i.image.url}}" class=" w-100 overla mx-0" alt="..">
+         <img src="{{i.image.url}}" class=" w-100 overla mx-0" alt=".." >
          <div class="overlaying">
            <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
          </div>            
        </div></a>
-       <p class="p-4 Ayush" value="{{i.id}}">{{i.description}}</p>
+       <p class="p-4 Ayush" >{{i.description}}</p>
        </div>
   </div>
 

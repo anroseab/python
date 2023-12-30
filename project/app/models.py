@@ -38,7 +38,7 @@ class Appointment(models.Model):
     time=models.TimeField()
 
 
-class Sub_package(models.Model):
+class Subpackage(models.Model):
     name=models.CharField(max_length=50)
     test1=models.CharField(max_length=50)
     test2=models.CharField(max_length=50)
@@ -46,5 +46,14 @@ class Sub_package(models.Model):
     test4=models.CharField(max_length=50)
     test5=models.CharField(max_length=50)
     cost=models.CharField(max_length=50)
-    image=models.ImageField(upload_to='image')
+    image=models.ImageField(upload_to='img')
     package=models.ForeignKey(Packages,on_delete=models.CASCADE)
+
+
+class Branch(models.Model):
+    image=models.ImageField(upload_to='img')
+    description=models.CharField(max_length=255)
+
+
+class Gallery(models.Model):
+    image=models.ImageField(upload_to='img')

@@ -1,6 +1,5 @@
 from django.shortcuts import render,redirect
 from . models import *
-import datetime
 from django.core.exceptions import ValidationError
 def index(request):
     context={}
@@ -22,16 +21,20 @@ def index(request):
 
 def about(request):
     return render(request,'about.html')
-def packages(request):
+def packages(request,ob):
     context={}
-    
+    obj=Subpackage.objects.filter(package=ob)
+
     obj=Packages.objects.all()
     context['obj']=obj
     return render(request,'packages.html',context)
 def test(request):
     return render(request,'test.html')
 def gallery(request):
-    return render(request,'gallery.html')
+    context={}
+    o=Gallery.objects.all()
+    context['o']=o
+    return render(request,'gallery.html',context)
 def department(request):
     return render(request,'department.html')
 def contact(request):
@@ -49,7 +52,10 @@ def contact(request):
 
     return render(request,'contact.html')
 def branch(request):
-    return render(request,'branch.html')
+    context={}
+    o=Branch.objects.all()
+    context['o']=o
+    return render(request,'branch.html',context)
 def appointment(request):
     if request.method=='POST':
           name=request.POST.get('name')
@@ -81,15 +87,15 @@ def blog(request):
     return render(request,'blog.html',context)
 def subblog(request):
     return render(request,'subblog.html')
+
 def subpackage(request):
     context={}
-    # if request.method=='POST':
-    #     obj=request.POST.get('package')
-
+    ob=request.GET.get("package")
+    print(ob)
+    
     obj=Packages.objects.all()  
-    # sub=Sub_package.objects.filter(package=obj)
-    sub=Sub_package.objects.all()  
-
+    su=Subpackage.objects.get(package=ob)
     context['obj']=obj
-    context['sub']=sub
+    context['su']=su
+
     return render(request,'subpackage.html',context)
