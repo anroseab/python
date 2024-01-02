@@ -57,3 +57,14 @@ class Branch(models.Model):
 
 class Gallery(models.Model):
     image=models.ImageField(upload_to='img')
+
+
+class Subblog(models.Model):
+    image=models.ImageField(upload_to='img')
+    name=models.CharField(max_length=50)
+    heading1=models.CharField(max_length=500)
+    description1=models.CharField(max_length=500)
+    heading2=models.CharField(max_length=500)
+    description2=models.CharField(max_length=500)
+    heading3=models.CharField(max_length=500)
+    description3=models.CharField(max_length=500)

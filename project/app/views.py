@@ -21,9 +21,9 @@ def index(request):
 
 def about(request):
     return render(request,'about.html')
-def packages(request,ob):
+def packages(request,):
     context={}
-    obj=Subpackage.objects.filter(package=ob)
+    # obj=Subpackage.objects.filter(package=ob)
 
     obj=Packages.objects.all()
     context['obj']=obj
@@ -86,15 +86,20 @@ def blog(request):
 
     return render(request,'blog.html',context)
 def subblog(request):
-    return render(request,'subblog.html')
+    context={}
+    su=Subblog.objects.all()  
+    context['su']=su
+
+    return render(request,'subblog.html',context)
 
 def subpackage(request):
     context={}
-    ob=request.GET.get("package")
-    print(ob)
     
+    # obj=Subpackage.objects.filter(package=ob)
+
     obj=Packages.objects.all()  
-    su=Subpackage.objects.get(package=ob)
+    su=Subpackage.objects.get(id=1)
+    # print(ob)
     context['obj']=obj
     context['su']=su
 
