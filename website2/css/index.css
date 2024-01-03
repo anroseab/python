@@ -5,7 +5,10 @@
 				height: 55vh;
 			}
 		} */
-
+body,html{
+	max-width: 100%;
+	overflow: hidden;
+}
 
 @media(max-width:1344px) and (min-width:1300px)
         {
@@ -60,6 +63,10 @@
 			 .dep{
 				font-size: 34px;
 				font-weight: 100;
+			}
+			.pl{
+				overflow-x: hidden;
+				width: fit-content;
 			}
 		}
 @media(max-width:575px) and (min-width:300px)

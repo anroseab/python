@@ -23,7 +23,7 @@ class Branch_display(admin.ModelAdmin):
 class Gallery_display(admin.ModelAdmin):
     list_display=['image']
 class Sub_blog_display(admin.ModelAdmin):
-    list_display=['name','image','heading1','description1','heading2','description2','heading3','description3']
+    list_display=['name','image','heading1','description1','heading2','description2','heading3','description3','blog']
 
 
 
@@ -35,4 +35,4 @@ admin.site.register(Appointment,Appointment_display)
 admin.site.register(Subpackage,Sub_package_display)
 admin.site.register(Branch,Branch_display)
 admin.site.register(Gallery,Gallery_display)
-admin.site.register(Subblog,Sub_blog_display)
+admin.site.register(Sub_blog,Sub_blog_display)

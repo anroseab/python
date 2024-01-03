@@ -11,6 +11,8 @@ class Packages(models.Model):
 class Blog(models.Model):
     image=models.ImageField(upload_to='img')
     description=models.CharField(max_length=255)
+    def __str__(self):
+        return self.description
 
 class Contact(models.Model):
     name=models.CharField(max_length=50)
@@ -59,7 +61,7 @@ class Gallery(models.Model):
     image=models.ImageField(upload_to='img')
 
 
-class Subblog(models.Model):
+class Sub_blog(models.Model):
     image=models.ImageField(upload_to='img')
     name=models.CharField(max_length=50)
     heading1=models.CharField(max_length=500)
@@ -68,3 +70,4 @@ class Subblog(models.Model):
     description2=models.CharField(max_length=500)
     heading3=models.CharField(max_length=500)
     description3=models.CharField(max_length=500)
+    blog=models.ForeignKey(Blog,on_delete=models.CASCADE)

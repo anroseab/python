@@ -13,8 +13,8 @@ urlpatterns = [
     path('branch',views.branch,name='branch'),
     path('appointment',views.appointment,name='appointment'),
     path('blog',views.blog,name='blog'),
-    path('subblog',views.subblog,name='subblog'),
-    path('subpackage',views.subpackage,name='subpackage'),
+    path('subblog/<int:id>/',views.subblog,name='subblog'),
+    path('subpackage/<int:id>/',views.subpackage,name='subpackage'),
 
 
 ]+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)

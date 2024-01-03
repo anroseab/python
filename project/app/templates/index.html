@@ -344,7 +344,8 @@
       {% for i in obj %}
       <div class="col-lg-4 col-md-6">
         <div class="pack" >
-          <a href="{% url 'subpackage' %}">
+          <a href="{% url 'subpackage' i.id %} " >
+    
            <div class="wrapper -2 ">   
              <img src="{{i.image.url}}" class=" w-100 overla mx-0" alt="..">
              <div class="overlaying">
@@ -623,7 +624,7 @@
         <div class="col-lg  col-md col-sm col-xs-12 Get">
           <h3 >Get In Touch</h3>
           <p class="Home ">Get In Touch
-            GMRL Laboratories Chambakkara, Ernakulam, Ernakulam - 682011</p>
+            GMRL Laboratories Chambakkara</p>
             <p class="Home ">+91 81388 62626</p>
             <p class="Home ">0484 0000 0000</p>
             <p class="Home">info@gmrllabs.com</p>

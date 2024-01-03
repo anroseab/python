@@ -115,12 +115,13 @@
 
   <div class="col-lg-4">
     <div class="pack" style="width:26rem;">
+      <a href="{% url 'subblog' i.id %} ">
        <div class="wrapper -2 ">   
          <img src="{{i.image.url}}" class=" w-100 overla mx-0 " alt="..">
          <div class="overlaying">
            <i class="fa fa-link text " aria-hidden="true" style="font-size:30px;"></i>
          </div>            
-       </div>
+       </div></a>
        <p class="p-4 Ayush">{{i.description}} </p>
        </div>
   </div>
